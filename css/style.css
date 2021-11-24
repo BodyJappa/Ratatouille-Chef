@@ -284,7 +284,6 @@ p{
 
 @media only screen and (max-width: 576px){
     .caixa:hover{
-        /*background-color: rgba(255, 255, 255, 0.986);*/
         background: url(/background-400x450.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -298,24 +297,22 @@ p{
         background-repeat: no-repeat;
         background-size: cover;
         color: #fff;
-        font-weight: 900;
         background-repeat: no-repeat;
         transition: ease-in-out 1s;
-        width: 400px;
+        width: 390px;
         height: 500px;
         margin: 0 auto 20px;
     }
 }
 @media only screen and (min-width: 577px){
     .caixa:hover{
-        /*background-color: rgba(255, 255, 255, 0.986);*/
         background: url(/background-400x450.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         transition: ease-in-out 1s;
         width: 500px;
         height: 450px;
-        margin: auto;
+        margin: 0 auto 20px;
     }
     .caixa-italia-pizza:hover{
         background: url(/pizza-400x450.jpg);
@@ -336,10 +333,10 @@ p{
         background: url(/background-copia.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        transition: ease-in-out 1s;
+        transition: ease 0.5s;
         width: 690px;
         height: 450px;
-        margin: auto;
+        margin: 0 auto 20px;
     }
     .caixa-italia-pizza:hover{
         background: url(/pizza-900x600.jpg);
@@ -368,7 +365,7 @@ p{
         transition: ease-in-out 1s;
         width: 900px;
         height: 450px;
-        margin: auto;
+        margin: 0 auto 20px;
     }
     .caixa-italia-pizza:hover{
         background: url(/pizza-900x600.jpg);
@@ -392,7 +389,7 @@ p{
         transition: ease-in-out 1s;
         width: 900px;
         height: 450px;
-        margin: auto;
+        margin: 0 auto 20px;
     }
     .caixa-italia-pizza:hover{
         background: url(/pizza-900x600.jpg);
@@ -434,12 +431,12 @@ p{
 .caixa-italia{
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.37);
     padding: 1px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.568);
 }
 .caixa-italia-pizza{
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.37);
     padding: 1px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.568);
 }
