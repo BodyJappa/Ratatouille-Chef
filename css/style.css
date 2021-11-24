@@ -288,7 +288,7 @@ p{
         background-size: cover;
         background-repeat: no-repeat;
         transition: ease-in-out 1s;
-        height: 500px;
+        height: 550px;
         margin: 0 auto 20px;
     }
     .caixa-italia-pizza:hover{
@@ -313,7 +313,7 @@ p{
         background-repeat: no-repeat;
         transition: ease-in-out 1s;
         width: 500px;
-        height: 500px;
+        height: 550px;
         margin: 0 auto 20px;
     }
     .caixa-italia-pizza:hover{
