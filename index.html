@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratatouille Chef</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav" id="topo-pg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="imagens/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="uppercase" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li id="uppercase" class="nav-item">
+                        <a id="uppercase" class="nav-link active" href="#sobre">Como Chegar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="uppercase" class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Culinária
+                        </a>
+                        <ul id="bg-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a id="uppercase" class="dropdown-item nav-link active margin" href="italiana.html">Italiana</a></li>
+                        <li><a id="uppercase" class="dropdown-item nav-link active margin" href="japonesa.html">Japonesa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- CARROUSEL-->
+    <div class="container">
+        <h1 class="text-center" id="titulo-welcome"> Bem vindos ao Ratatouille Chef</h1>
+        
+        <div class="row">
+            <div class="col-lg-6" id="nossa-historia">
+                <h3 class="text-center titulo-curiosidade">Nossa História</h3>
+                <p>Nosso Restaurante Ratatouille Chefs fundado em 2007 está localizado em Marselha, cidade portuária no sul da França. A distância percorrida de trem entre nosso restaurante e capital Paris é de paroximadamente 3h15 min, não é longe considerado ao que a cidade tem a oferecer de cultura, lembrando que Marselha foi fundada pelos gregos por volta de 600 a.C. Ao almoçar no Ratatuille chef você pode sair pelas ruas desta cidade tão importante e conhecer por exemplo as ruínas do período neolítico.</p>
+            </div>
+            <!---->
+            <div class="col-lg-6">
+                <h3 class="text-center titulo-curiosidade">Nosso ambiente</h3>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="imagens/sala-01.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="imagens/sala-02.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="imagens/sala-03.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- CURIOSIDADES -->
+    <div class="container bg-divJaponesa">
+        <div class="row">
+            <h2 id="titulo-curiosidade" class="text-center">Curiosidades da culinária japonesa</h2>
+            <div class="container bg-img d-none d-md-block">
+                <div class="row">
+                    <div class="col-md-4 col-lg-2  text-center">
+                        <span onclick="PaginaJapones()"><a id="titulo-img" href="#">Lamem</a></span>
+                        <img class="img-curiosidade" src="imagens/lamem - Copia.jpeg" alt="lamem">
+                    </div>
+                    <div class="col-md-4 col-lg-2 text-center">
+                        <span onclick="PaginaJapones()"><a id="titulo-img" href="#">Sushi</a></span>
+                        <img class="img-curiosidade"  src="imagens/sushi - Copia.jpg">
+                    </div>
+                    <div class="col-md-4 col-lg-2 text-center">
+                        <span onclick="PaginaJapones()"><a id="titulo-img" href="#">Sashimi</a></span>
+                        <img class="img-curiosidade"  src="imagens/sashimi - Copia.jpg" alt="sashimi">
+                    </div>
+                    <div class="col-md-4 col-lg-2 text-center">
+                        <span onclick="PaginaJapones()"><a id="titulo-img" href="#">Temaki</a></span>
+                        <img class="img-curiosidade"  src="imagens/temaki - Copia.jpg">
+                    </div>
+                    <div class="col-md-4 col-lg-2 text-center">
+                        <span onclick="PaginaJapones()"><a id="titulo-img" href="#">Guioza</a></span>
+                        <img class="img-curiosidade"  src="imagens/guioza - Copia.jpg">
+                    </div>
+                    <div class="col-md-4 col-lg-2 text-center">
+                        <span onclick="PaginaJapones()"><a id="titulo-img" href="#">Tempura</a></span>
+                        <img class="img-curiosidade" src="imagens/tempura - Copia.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12"><!-- HISTÓRIA DAS COMIDAS JAPONESA-->
+                <h3 class="titulo-curiosidade">1. Patrimônio Cultural da humanindada</h3>
+                <p>A culinária japonesa tradicional, conhecida como “Washoku”, é uma das duas únicas tradições gastronômicas reconhecidas pela ONU como Patrimônio Imaterial Cultural. A cozinha francesa é a outra homenageada. Além disso, o Japão é um modelo global de dieta saudável e tem o nível mais baixo de obesidade entre as nações.</p>
+                </div>
+                <hr id="hr-color">
+                <div class="col-12">
+                    <h3 class="titulo-curiosidade">2. Missô combate os efeitos da radiação</h3>
+                    <p>A pasta de soja utilizada para preparar o popular missoshiro sempre foi apontada como um dos motivos para explicar esse fato, e há pouco tempo a ciência confirmou a hipótese: substâncias presentes no missô ajudam a prevenir a morte celular provocada pela irradiação. Logo após o acidente em Chernobyl, o missô foi exportado para a Rússia como uma maneira de prevenção.Ou seja, está comprovado que o missô combate a morte celular e contribui para melhorar a elasticidade da pele.</p>
+                </div>
+                <hr id="hr-color">
+                <div class="col-12">
+                    <h3 class="titulo-curiosidade">3. Pratos japoneses têm origem chinesa</h3>
+                    <p>Muito da cultura chinesa foi absorvida pelos japoneses séculos atrás. Hoje, encontramos diversos pratos que têm origem na China, mas que atualmente seguem a maneira japonesa de preparo e consumo. Guioza, yakissoba e o lamen são alguns deles.</p>
+                </div>
+                <hr id="hr-color">
+                <div class="col-12">
+                    <h3 class="titulo-curiosidade">4. Wasabi ajuda na digestão</h3>
+                    <p>Você sabia que Wasabi ajuda no processo digestivo e é altamente bactericida? Pois é, ela é rica em potássio, cálcio, magnésio, fósforo e oferece benefícios à saúde por apresentar propriedades antibióticas.</p>
+                </div>
+                <hr id="hr-color">
+                <div class="col-12">
+                    <h3 class="titulo-curiosidade">5. Combate o envelhecimento</h3>
+                    <p>O consumo de carne de peixe, a base do cardápio japonês, aumenta os níveis de ômega 3 no organismo. Além de combater alergias e processos inflamatórios, ajuda a diminuir os níveis de triglicerídeos e colesterol ruim enquanto aumenta os níveis do colesterol bom.</p>
+                </div>
+        </div>
+    </div>
+    <div class="bg-divItaliana"><!-- HISTÓRIA DAS COMIDAS ITALIANA-->
+        <div class="container">
+            <div class="row">
+                <h2 id="titulo-curiosidade" class="text-center">Curiosidades da culinária italiana</h2>
+                <div class="container bg-img d-none d-md-block">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-2  text-center">
+                            <span onclick="PaginaItaliana()"><a id="titulo-img" href="#">Ratatouille</a></span>
+                            <img class="img-curiosidade" src="imagens/rataui-prato-copia.jpg" alt="lamem">
+                        </div>
+                        <div class="col-md-4 col-lg-2 text-center">
+                            <span onclick="PaginaItaliana()"><a id="titulo-img" href="#">Bruschetta</a></span>
+                            <img class="img-curiosidade"  src="imagens/Bruschetta-copia.jpg">
+                        </div>
+                        <div class="col-md-4 col-lg-2 text-center">
+                            <span onclick="PaginaItaliana()"><a id="titulo-img" href="#">Risoto</a></span>
+                            <img class="img-curiosidade"  src="imagens/Risoto-copia.jpg" alt="sashimi">
+                        </div>
+                        <div class="col-md-4 col-lg-2 text-center">
+                            <span onclick="PaginaItaliana()"><a id="titulo-img-peq" href="#">Macarrão à bolonhesa</a></span>
+                            <img class="img-curiosidade"  src="imagens/macarrao-bolonhesa-copia.jpg">
+                        </div>
+                        <div class="col-md-4 col-lg-2 text-center">
+                            <span onclick="PaginaItaliana()"><a id="titulo-img-peq" href="#">Nhoque de Ricota</a></span>
+                            <img class="img-curiosidade"  src="imagens/Nhoque-de-Ricota-copia.jpeg">
+                        </div>
+                        <div class="col-md-4 col-lg-2 text-center">
+                            <span onclick="PaginaItaliana()"><a id="titulo-img" href="#">Tiramisù</a></span>
+                            <img class="img-curiosidade" src="imagens/Tiramisu-copia.jpg">
+                        </div>
+                    </div>
+                </div>
+                <!-- HISTÓRIA DAS COMIDAS -->
+                <div class="col-12">
+                    <h3 class="titulo-curiosidade">1. Mais do que somente massas</h3>
+                    <p>Se você acha que os italianos consomem somente massas, está enganado! A culinária da Itália é bastante rica e tem fortes influências da cozinha mediterrânea, o que proporciona uma grande variedade de frutos do mar. Além disso, eles consomem também vários outros pratos à base de carnes, como o filé à parmegiana.Outros tipos de carne bastante comuns por lá são as de vaca, cordeiro, peru e frango. A forte presença de azeite de oliva, frutas secas, oleaginosas, grãos, legumes, hortaliças são bem presentes devido à característica mediterrânea.</p>
+                    </div>
+                    <hr id="hr-color">
+                    <div class="col-12">
+                        <h3 class="titulo-curiosidade">2. A pizza não surgiu na Itália</h3>
+                        <p>A pizza teve a origem no Antigo Egito, já que a história conta que séculos antes dela surgir na Itália, os egípcios já consumiam uma massa feita de farinha e água. Porém, a pizza que conhecemos atualmente é uma incrementação da receita original.</p>
+                    </div>
+                    <hr id="hr-color">
+                    <div class="col-12">
+                        <h3 class="titulo-curiosidade">3. O risoto surgiu a partir de um erro</h3>
+                        <p>Apesar de existir vários modos de preparado, a receita original do risoto é a que possui açafrão. Ele surgiu por acidente, em 1574, no jantar de casamento da filha de uma pessoa bem importante da época. O cozinheiro deixou cair uma grande quantidade de açafrão no prato sem querer. O fato, que poderia ter sido interpretado como uma fatalidade, foi aprovado por todos.</p>
+                    </div>
+                    <hr id="hr-color">
+                    <div class="col-12">
+                        <h3 class="titulo-curiosidade">4. A bruschetta é do século XV</h3>
+                        <p>A bruschetta, que é uma das entradas mais consumidas em todo o mundo, tem a origem do século XV. O nome vem do verbo bruscare, que significa “tostar na brasa”, o que combinou perfeitamente com um dos alimentos mais consumidos na Itália: o pão.A receita origem tem apenas pão torrado, pimenta, azeite de oliva, sal e alho. Porém, a que se espalhou pelo mundo conta também com tomate e manjericão.</p>
+                    </div>
+                    <hr id="hr-color">
+                    <div class="col-12">
+                        <h3 class="titulo-curiosidade">5. A gastronomia italiana é repleta dos mais variados tipos de queijo</h3>
+                        <p>O queijo é muito produzido e apreciado na Itália, contando com mais de 400 tipos fabricados no país. Há opções feitas com leite de vaca, ovelha, búfala e cabra. Os mais conhecidos e consumidos são o provolone, parmesão, gorgonzola, muçarela, ricota e muçarela de búfala.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"> <!-- FOOTER -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="sobre">
+                    <h3>Como chegar</h3>
+                    <p>Para chegar ao nosso Restaurante partindo da capital Paris, você pode de carrp de passeio, sendo aproximadamente 7h15min dirigindo, de ônibus o tempo de viagem é de aproximadamente 10h 20min e de tem 3h 19min. Estamos a sua Espera reserver um tempo para vim conhecer está linda cidade e apreciar a culinária do nosso Restaurante, Abraços Ratatouille Chef</p>
+                </div>
+                <div class="col-md-6 text-center" id="sobre">
+                    <h3 class="text-center">Estamos Bem Aqui</h3>
+                    <a href="https://www.google.com/maps/place/Chez+Fonfon/@43.2928015,5.3365785,13z/data=!4m5!3m4!1s0x12c9c12a0d2ab5bf:0xcd80733d1e15d3d!8m2!3d43.2856012!4d5.3512908?hl=pt-BR" target="_blank"><img id="img-mapa" class="img-fluid" src="imagens/mapa.png" alt="mapa"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Aqui entra a Seta-->
+        <div class="text-center"><a href="#topo-pg"><img id="seta" src="imagens/seta-01.png"></a></div>
+        <div id="bg-color-f">
+            <div id="sociais">
+                <div id="sociais-a">
+                    <a href="#"><span class="fab fa-instagram sociais"></span></a>
+                    <a href="#"><span class="fab fa-facebook sociais"></span></a>
+                    <a href="#"><span class="fab fa-twitter sociais"></span></a>
+                </div>
+            </div>
+            <div class="text-center" id="copy-01">
+                <span id="copy">&copy;2021 - by Equipe - 01</span>
+            </div>
+        </div>
+    </div> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>

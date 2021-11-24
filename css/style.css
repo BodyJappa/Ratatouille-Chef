@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    scroll-behavior: smooth;
+}
+#bg-dropdown{
+    background-image: linear-gradient(to right, #660b08fd,#920b07fd,#660b08fd)
+}
+#bg-dropdown a{
+    color: #fff;
+}
+#uppercase:hover{
+    text-transform: uppercase;
+    transition: all 0.4s ease-out;
+    color: #fff;
+}
+.bg-nav{
+    background-image: linear-gradient(to right, #c78304,#ce9c07,#F2CB05);
+  
+}
+#titulo-welcome{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/*
+#corpo{
+    background-image: url(/imagens/bckg-01.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+#fuji{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    border-top-left-radius: 0px;
+}*/
+@media only screen and (max-width: 576px){
+    #fuji{
+        width: 400px;
+    }
+    
+}
+@media only screen and (min-width: 992px){
+    #fuji{
+        margin-left: 30px;
+    }
+    #nossa-historia p{
+        margin-top: 60px;
+    }
+    #seta{
+        margin-top: 15px;
+        width: 65px;
+    }
+    #sobre p{
+        margin-top: 90px;
+    }
+    .conteudo{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+        padding: 10px;
+        text-align: justify;
+    }
+    #img{
+        margin-top: 0px;
+    }
+}
+.bg-img{
+    background-color: #660b08fd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.bg-divJaponesa{
+    background-image: linear-gradient(to top, #c78304,#ce9c07,#F2CB05);
+    margin-top: 100px;
+}
+.bg-divItaliana{
+    background-image: linear-gradient(to right, #8C5B1F,#8b6d14,#A67C2E);
+    color: rgba(255, 255, 255, 0.945);
+}
+#titulo-img:hover{
+    color: white;
+    opacity: 1;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration:none;
+}
+#titulo-img{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    margin-left: 20px;
+    background-color: #5c0502c5;
+    padding: 2px;
+}
+#titulo-img-peq{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    margin-left:0px;
+    background-color: #5c0502c5;
+    padding: 2px;
+}
+#titulo-img-peq:hover{
+    color: white;
+    opacity: 1;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration:none;
+    font-size: 10pt;
+}
+.img-curiosidade{
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 990px){
+    .img-curiosidade{
+        margin-bottom: 10px;
+    }
+    #seta{
+        margin-top: 15px;
+        width: 50px;
+    }
+}
+.img-tempura{
+    box-shadow: 2px 2px 5px #000; 
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#curiosidade-02{
+    margin-top: 0px;
+}
+.titulo-curiosidade{
+    margin: 50px auto 15px;
+    font-weight: 500;
+}
+#titulo-curiosidade{
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: justify;
+    font-weight: 600;
+    padding: 5px;
+    
+}
+/* PAGINA JAPONESA*/
+#h1-pgJaponesa{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.h3-pgJaponesa{
+    font-size: 15pt;
+    font-weight: 600;
+}
+@media only screen and (min-width: 768px){
+    .margin-seta{
+        margin-top: 100px;
+    }
+    #margin-left{
+        margin-left: 70px;
+    }
+    #sushi{
+        margin-right: -100px;
+        margin-top: 50px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+    }
+    #img-lamem{
+        margin-top: 50px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+    }
+    #img-guioza{
+        margin-top: 50px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+    }
+    #img-sahsimi{
+        margin-top: 50px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+    }
+    /*pg-italiana*/
+    #img-ratatui{
+        margin-top: 40px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+    }
+    #img-risoto{
+        margin-top: 40px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+    }
+    #img-nhoque{
+        margin-top: 40px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+        border-radius: 5px; 
+    }
+}
+@media only screen and (min-width:1000px){
+    #margin-left{
+        margin-left: 105px;
+    }
+    #sushi{
+        margin-right: -150px;
+    }
+}
+#container-pratos{
+    margin-bottom: 50px;
+}
+/* FOOOTER*/
+#footer{
+  background-image: linear-gradient(to right, #230900,#73553B,#400D0D);
+   
+}
+#sociais{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: -20px;
+}
+.sociais{
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#sobre{
+    color: rgba(255, 255, 255, 0.904);
+}
+#sobre h3{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#img-mapa{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.24);
+
+}
+.sociais{
+    background-image: linear-gradient(to right, #0D0D0D,#A61103,#F24405);
+}
+@media only screen and (max-width: 768px){
+    .sociais{
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        
+    }
+    #sociais{
+        text-align: right;
+        margin-right: 10px;
+        margin-bottom: -24px;
+    }
+    #copy{
+        font-size: 8pt;
+    }
+    #img-mapa{
+        width: 400px;
+    }
+    .margin{
+        margin-left: 20px;
+    }
+    .conteudo{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+#copy{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+#hr-color{
+    color: #fff;
+    
+}
+#bg-color-f{
+    background-image: linear-gradient(to right, #0c0000,#79030380,#0f0000);
+  padding: 2px;
+}
+
