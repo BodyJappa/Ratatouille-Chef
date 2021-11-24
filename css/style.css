@@ -24,18 +24,6 @@
     margin-top: 50px;
     margin-bottom: 20px;
 }
-/*
-#corpo{
-    background-image: url(/imagens/bckg-01.jpg);
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.8;
-}
-#fuji{
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
-    border-top-left-radius: 0px;
-}*/
 @media only screen and (max-width: 576px){
     #fuji{
         width: 400px;
@@ -78,8 +66,11 @@
     margin-top: 100px;
 }
 .bg-divItaliana{
-    background-image: linear-gradient(to right, #8C5B1F,#8b6d14,#A67C2E);
-    color: rgba(255, 255, 255, 0.945);
+    /*background-image: linear-gradient(to right, #8C5B1F,#8b6d14,#A67C2E);*/
+    background: url("/background-italia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.938);
 }
 #titulo-img:hover{
     color: white;
@@ -226,7 +217,7 @@ p{
     margin-bottom: -20px;
 }
 .sociais{
-    font-size: 30pt;
+    font-size: 15pt;
     color: rgb(255, 255, 255);
     border-radius: 10px;
 }
@@ -284,4 +275,171 @@ p{
     background-image: linear-gradient(to right, #0c0000,#79030380,#0f0000);
   padding: 2px;
 }
+/*CONFIG PAG INDEX*/
+.caixa{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+    padding: 1px 20px;
+    margin-bottom: 10px;
+}
 
+@media only screen and (max-width: 576px){
+    .caixa:hover{
+        /*background-color: rgba(255, 255, 255, 0.986);*/
+        background: url(/background-400x450.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 400px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+    .caixa-italia-pizza:hover{
+        background: url(/pizza-400x450.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: 900;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 400px;
+        height: 500px;
+        margin: 0 auto 20px;
+    }
+}
+@media only screen and (min-width: 577px){
+    .caixa:hover{
+        /*background-color: rgba(255, 255, 255, 0.986);*/
+        background: url(/background-400x450.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 500px;
+        height: 450px;
+        margin: auto;
+    }
+    .caixa-italia-pizza:hover{
+        background: url(/pizza-400x450.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: 900;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 500px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .caixa:hover{
+        /*background-color: rgba(255, 255, 255, 0.986);*/
+        background: url(/background-copia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 690px;
+        height: 450px;
+        margin: auto;
+    }
+    .caixa-italia-pizza:hover{
+        background: url(/pizza-900x600.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: 900;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 690px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+    .sociais{
+        font-size: 30pt;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .caixa:hover{
+        /*background-color: rgba(255, 255, 255, 0.986);*/
+        background: url(/background-copia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 900px;
+        height: 450px;
+        margin: auto;
+    }
+    .caixa-italia-pizza:hover{
+        background: url(/pizza-900x600.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: 900;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 900px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .caixa:hover{
+        /*background-color: rgba(255, 255, 255, 0.986);*/
+        background: url(/background-copia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 900px;
+        height: 450px;
+        margin: auto;
+    }
+    .caixa-italia-pizza:hover{
+        background: url(/pizza-900x600.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: 900;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 900px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+}
+@media only screen and (min-width: 1201px){
+    .caixa:hover{
+        /*background-color: rgba(255, 255, 255, 0.986);*/
+        background: url(/background-1100x450.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: ease-in-out 0.2s;
+        width: 1100px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+    .caixa-italia-pizza:hover{
+        background: url(/pizza-1100x450.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: 900;
+        background-repeat: no-repeat;
+        transition: ease-in-out 1s;
+        width: 1100px;
+        height: 450px;
+        margin: 0 auto 20px;
+    }
+}
+.caixa-italia{
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.37);
+    padding: 1px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.caixa-italia-pizza{
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.37);
+    padding: 1px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+}

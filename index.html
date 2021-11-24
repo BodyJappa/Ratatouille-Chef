@@ -9,6 +9,58 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        .div-div{
+            background: url("restaurante.jpg");
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+        }
+        @media only screen and (max-width:1400px){
+            #div-teste{
+            position:absolute;
+            margin-top:20%;
+            margin-left: 25%;
+            margin-right: 25%
+            }
+        }
+        @media only screen and (max-width:1200px){
+            #div-teste{
+            position:absolute;
+            margin-top:20%;
+            margin-left: 20%;
+            margin-right: 20%
+            }
+        }
+        @media only screen and (max-width:992px){
+            #div-teste{
+            position:absolute;
+            margin-top:30%;
+            margin-left: 20%;
+            margin-right: 20%
+            }
+        }
+        @media only screen and (max-width:768px){
+            #div-teste{
+            position:absolute;
+            margin-top:40%;
+            margin-left: 15%;
+            margin-right: 10%
+            }
+        }
+        @media only screen and (max-width:567px){
+            #div-teste{
+            position:absolute;
+            margin-top:55%;
+            margin-left: 5%;
+            margin-right: 5%
+            }
+        }
+        
+    </style>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-nav" id="topo-pg">
@@ -38,10 +90,14 @@
             </div>
         </div>
     </nav>
+    <!--TESTE-->
+    <div class="div-div">
+        <div id="div-teste">
+            <h1 class="text-center">Bem vindos ao Ratatouille Chef</h1>
+        </div>
+     </div>
     <!-- CARROUSEL-->
-    <div class="container">
-        <h1 class="text-center" id="titulo-welcome"> Bem vindos ao Ratatouille Chef</h1>
-        
+    <div class="container">        
         <div class="row">
             <div class="col-lg-6" id="nossa-historia">
                 <h3 class="text-center titulo-curiosidade">Nossa História</h3>
@@ -109,29 +165,39 @@
             </div>
 
             <div class="col-12"><!-- HISTÓRIA DAS COMIDAS JAPONESA-->
-                <h3 class="titulo-curiosidade">1. Patrimônio Cultural da humanindada</h3>
-                <p>A culinária japonesa tradicional, conhecida como “Washoku”, é uma das duas únicas tradições gastronômicas reconhecidas pela ONU como Patrimônio Imaterial Cultural. A cozinha francesa é a outra homenageada. Além disso, o Japão é um modelo global de dieta saudável e tem o nível mais baixo de obesidade entre as nações.</p>
+                <div class="caixa">
+                    <h3 class="titulo-curiosidade">1. Patrimônio Cultural da humanindada</h3>
+                    <p>A culinária japonesa tradicional, conhecida como “Washoku”, é uma das duas únicas tradições gastronômicas reconhecidas pela ONU como Patrimônio Imaterial Cultural. A cozinha francesa é a outra homenageada. Além disso, o Japão é um modelo global de dieta saudável e tem o nível mais baixo de obesidade entre as nações.</p>
                 </div>
+            </div>
                 <hr id="hr-color">
-                <div class="col-12">
+            <div class="col-12">
+                <div class="caixa">
                     <h3 class="titulo-curiosidade">2. Missô combate os efeitos da radiação</h3>
                     <p>A pasta de soja utilizada para preparar o popular missoshiro sempre foi apontada como um dos motivos para explicar esse fato, e há pouco tempo a ciência confirmou a hipótese: substâncias presentes no missô ajudam a prevenir a morte celular provocada pela irradiação. Logo após o acidente em Chernobyl, o missô foi exportado para a Rússia como uma maneira de prevenção.Ou seja, está comprovado que o missô combate a morte celular e contribui para melhorar a elasticidade da pele.</p>
                 </div>
+            </div>
                 <hr id="hr-color">
-                <div class="col-12">
+            <div class="col-12">
+                <div class="caixa">
                     <h3 class="titulo-curiosidade">3. Pratos japoneses têm origem chinesa</h3>
                     <p>Muito da cultura chinesa foi absorvida pelos japoneses séculos atrás. Hoje, encontramos diversos pratos que têm origem na China, mas que atualmente seguem a maneira japonesa de preparo e consumo. Guioza, yakissoba e o lamen são alguns deles.</p>
                 </div>
+            </div>
                 <hr id="hr-color">
-                <div class="col-12">
+            <div class="col-12">
+                <div class="caixa">
                     <h3 class="titulo-curiosidade">4. Wasabi ajuda na digestão</h3>
                     <p>Você sabia que Wasabi ajuda no processo digestivo e é altamente bactericida? Pois é, ela é rica em potássio, cálcio, magnésio, fósforo e oferece benefícios à saúde por apresentar propriedades antibióticas.</p>
                 </div>
+            </div>
                 <hr id="hr-color">
-                <div class="col-12">
+            <div class="col-12">
+                <div class="caixa">
                     <h3 class="titulo-curiosidade">5. Combate o envelhecimento</h3>
                     <p>O consumo de carne de peixe, a base do cardápio japonês, aumenta os níveis de ômega 3 no organismo. Além de combater alergias e processos inflamatórios, ajuda a diminuir os níveis de triglicerídeos e colesterol ruim enquanto aumenta os níveis do colesterol bom.</p>
                 </div>
+            </div>
         </div>
     </div>
     <div class="bg-divItaliana"><!-- HISTÓRIA DAS COMIDAS ITALIANA-->
@@ -168,32 +234,42 @@
                 </div>
                 <!-- HISTÓRIA DAS COMIDAS -->
                 <div class="col-12">
-                    <h3 class="titulo-curiosidade">1. Mais do que somente massas</h3>
-                    <p>Se você acha que os italianos consomem somente massas, está enganado! A culinária da Itália é bastante rica e tem fortes influências da cozinha mediterrânea, o que proporciona uma grande variedade de frutos do mar. Além disso, eles consomem também vários outros pratos à base de carnes, como o filé à parmegiana.Outros tipos de carne bastante comuns por lá são as de vaca, cordeiro, peru e frango. A forte presença de azeite de oliva, frutas secas, oleaginosas, grãos, legumes, hortaliças são bem presentes devido à característica mediterrânea.</p>
+                    <div class="caixa-italia">
+                        <h3 class="titulo-curiosidade">1. Mais do que somente massas</h3>
+                        <p>Se você acha que os italianos consomem somente massas, está enganado! A culinária da Itália é bastante rica e tem fortes influências da cozinha mediterrânea, o que proporciona uma grande variedade de frutos do mar. Além disso, eles consomem também vários outros pratos à base de carnes, como o filé à parmegiana.Outros tipos de carne bastante comuns por lá são as de vaca, cordeiro, peru e frango. A forte presença de azeite de oliva, frutas secas, oleaginosas, grãos, legumes, hortaliças são bem presentes devido à característica mediterrânea.</p>
                     </div>
+                </div>
                     <hr id="hr-color">
-                    <div class="col-12">
+                <div class="col-12">
+                    <div class="caixa-italia-pizza">
                         <h3 class="titulo-curiosidade">2. A pizza não surgiu na Itália</h3>
                         <p>A pizza teve a origem no Antigo Egito, já que a história conta que séculos antes dela surgir na Itália, os egípcios já consumiam uma massa feita de farinha e água. Porém, a pizza que conhecemos atualmente é uma incrementação da receita original.</p>
                     </div>
+                </div>
                     <hr id="hr-color">
-                    <div class="col-12">
+                <div class="col-12">
+                    <div class="caixa-italia">
                         <h3 class="titulo-curiosidade">3. O risoto surgiu a partir de um erro</h3>
                         <p>Apesar de existir vários modos de preparado, a receita original do risoto é a que possui açafrão. Ele surgiu por acidente, em 1574, no jantar de casamento da filha de uma pessoa bem importante da época. O cozinheiro deixou cair uma grande quantidade de açafrão no prato sem querer. O fato, que poderia ter sido interpretado como uma fatalidade, foi aprovado por todos.</p>
                     </div>
+                </div>
                     <hr id="hr-color">
-                    <div class="col-12">
+                <div class="col-12">
+                    <div class="caixa-italia">
                         <h3 class="titulo-curiosidade">4. A bruschetta é do século XV</h3>
                         <p>A bruschetta, que é uma das entradas mais consumidas em todo o mundo, tem a origem do século XV. O nome vem do verbo bruscare, que significa “tostar na brasa”, o que combinou perfeitamente com um dos alimentos mais consumidos na Itália: o pão.A receita origem tem apenas pão torrado, pimenta, azeite de oliva, sal e alho. Porém, a que se espalhou pelo mundo conta também com tomate e manjericão.</p>
                     </div>
+                </div>
                     <hr id="hr-color">
-                    <div class="col-12">
+                <div class="col-12">
+                    <div class="caixa-italia">
                         <h3 class="titulo-curiosidade">5. A gastronomia italiana é repleta dos mais variados tipos de queijo</h3>
                         <p>O queijo é muito produzido e apreciado na Itália, contando com mais de 400 tipos fabricados no país. Há opções feitas com leite de vaca, ovelha, búfala e cabra. Os mais conhecidos e consumidos são o provolone, parmesão, gorgonzola, muçarela, ricota e muçarela de búfala.</p>
                     </div>
+                </div>
             </div>
         </div>
-    </div>
+    </div> 
     <div id="footer"> <!-- FOOTER -->
         <div class="container">
             <div class="row">
